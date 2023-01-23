@@ -4,7 +4,7 @@ name: dev-devops-workflow
 on:
   push:
     branches:
-      - main
+      - dev
     paths:
       - 'root/**'
 
