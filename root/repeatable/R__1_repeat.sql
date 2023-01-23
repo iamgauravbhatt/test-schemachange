@@ -1,11 +1,6 @@
 use schema demo_schema;
 
-create or replace procedure test_sp()
-returns varchar
-language sql
-as 
-$$
-    returns "var_one";
-end;
-$$
-;
+create function pi_udf()
+  returns float
+  as '3.141592654::FLOAT'
+  ;
