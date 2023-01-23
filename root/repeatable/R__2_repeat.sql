@@ -1,3 +1,3 @@
 use schema demo_schema;
 
-call test_sp();
+select pi_udf();
