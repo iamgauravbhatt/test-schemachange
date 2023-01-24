@@ -1,6 +1,6 @@
 use schema demo_schema;
 
-create function pi_udf()
+create or replace function pi_udf()
   returns float
-  as '3.141592654::FLOAT'
+  as '3.14::FLOAT'
   ;
