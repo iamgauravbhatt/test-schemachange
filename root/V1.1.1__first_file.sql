@@ -1,5 +1,5 @@
 use database demo_db;
-use schema demo_schema;
+use schema public;
 create table hello_world
 (
    first_name varchar
