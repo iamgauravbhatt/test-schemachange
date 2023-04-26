@@ -2,9 +2,6 @@ name: devops-workflow
 
 # Controls when the action will run. 
 on:
-  push:
-    branches:
-      - main
     paths:
       - 'root/**'
 
