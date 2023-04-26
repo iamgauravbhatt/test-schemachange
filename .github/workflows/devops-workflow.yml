@@ -1,4 +1,4 @@
-name: dev-devops-workflow
+name: devops-workflow
 
 # Controls when the action will run. 
 on:
