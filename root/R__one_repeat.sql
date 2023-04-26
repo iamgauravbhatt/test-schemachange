@@ -1,3 +1,4 @@
+use database demo_db;
 use schema demo_schema;
 
 create or replace function pi_udf()
