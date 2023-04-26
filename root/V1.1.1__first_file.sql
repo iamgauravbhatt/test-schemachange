@@ -1,7 +1,7 @@
-create schema if not exists demo_schema;
+use database demo_db;
 use schema demo_schema;
-
-create table if not exists demo_table(
-    num1 int,
-    val varchar
+create table hello_world
+(
+   first_name varchar
+  ,last_name varchar
 );
